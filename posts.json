@@ -1,0 +1,58 @@
+[ 
+    {
+        "title": "My Updated Post",
+        "content": "My first updated post! This is exciting",
+        "user_id": 1
+    },
+    {
+        "title": "A Second Post",
+        "content": "This is a post from a different user ...",
+        "user_id": 2
+    },
+    {
+        "title":"Top 5 Programming Languages",
+        "content":"placeat ut doloremque maxime praesentium saepe",
+        "user_id": 1
+    },
+    {
+        "title": "Sublime Text tips and Tricks",
+        "content": "sapiente itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum incidunt facilis ipsa, quas i",
+        "user_id": 1
+    },
+    {
+        "title": "Best Python IDES",
+        "content": "nsectetur adipisicing elit.Aliquid nemo quas vel, natus ipsa quasi, maiores ",
+        "user_id": 1
+    },
+    {
+        "title": "Flask vs Django -Which is Better?",
+        "content": "ero doloribus sit tempora cum dolorem aliquid, impedit nemo ipsam,",
+        "user_id": 1
+    },
+    {
+        "title": "You won't believe these Clickbait Titles!",
+        "content": "placeat ut doloremque maxime praesentium saepeassumenda nobis consequuntur quos, volupt",
+        "user_id": 2
+    },
+    {
+        "title": "These Beers will Improve Your programming",
+        "content": "ro doloribus sit tempora cum dolorem aliquid, impedit nemo ipsam, quasi cupiditate",
+        "user_id": 2
+    },
+    {
+        "title": "List of Pycon 2018 Talks",
+        "content": "praesentium saepeassumenda nobis consequuntur quos, voluptas",
+        "user_id": 1
+    },
+    {
+        "title": "My Updated Post",
+        "content": " doloremque maxime praesentium saepeassumenda nobis consequunt",
+        "user_id": 2
+    },
+    {
+        "title": "How Dog in the Workplace bBooths Productivity",
+        "content": "vero doloribus sit tempora cum dolorem aliquid, impedit nemo ipsam, quasi cupiditate fugit! At, magnam aperi",
+        "user_id": 1
+    }
+ 
+]
