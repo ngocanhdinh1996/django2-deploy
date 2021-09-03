@@ -11,8 +11,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os 
+from dotenv import load_dotenv 
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+load_dotenv()
+# Build 
+# paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -20,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qltd(ox1!kx5(8##*+kn&0(uy74s^7@adu5xmnfm$!anc3i338'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'some_random_default_string')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', False)
 
 ALLOWED_HOSTS = []
 
@@ -121,6 +124,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [ 
+    os.path.join(BASE_DIR, 'static')
+]
+
+STATIC_ROOT = '/var/www/ngocanhdinh1996/static'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
